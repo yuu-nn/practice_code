@@ -14,3 +14,6 @@
 ## 실행 예시
 striker
 unknown
+
+## 학습 포인트
+-switch expression에서 사용 가능한 다중 case 레이블, 화살표 case레이블, switch 연산식
