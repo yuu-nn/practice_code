@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food_order_form</title>
+</head>
+<body>
+    <h1>음식주문</h1>
+    <hr>
+    <form method="get">
+        주문자
+        <input type="text" name="username"><br>
+        비밀번호
+        <input type="password" name="password"> (비밀번호는 주문자 확인용) <br>
+        연락처
+        <select name="number">
+            <option value="010">010</option>
+            <option value="011">011</option>
+            <option value="017">017</option>
+            <option value="018">018</option>
+            <option value="019">019</option>
+        </select>
+        - <input type="text" name="number"> 
+        - <input type="text" name="number"> <br>
+        이메일
+        <input type="email" placeholder="id@host.com"><br>
+        주문방법 
+        <input type="radio" name="diliver" value="diliver"> 배달
+        <input type="radio" name="diliver" value="takeout"> 포장 <br>
+        주문메뉴
+        <input type="text" list="foods" name="food">
+        <datalist id="foods">
+            <option value="닭다리 샐러드">닭다리 샐러드</option>
+            <option value="단호박 샐러드">단호박 샐러드</option>
+            <option value="연어 샐러드">연어 샐러드</option>
+        </datalist>
+        <select name="number">
+            <option value="1">1개</option>
+            <option value="2">2개</option>
+            <option value="3">3개</option>
+        </select><br>                    
+        음료추가선택
+        <input type="checkbox" name="drink" value="water" checked>물 
+        <input type="checkbox" name="drink" value="zero">제로콜라
+        <input type="checkbox" name="drink" value="사이다">나랑드사이다
+        <input type="checkbox" name="drink" value="coffee">빼자커피 <br>
+        픽업시간
+        <input type="time" value="18:00"><br>
+        요청사항 
+        <textarea name="message" rows="5" cols="30">(선택) 요청사항을 입력</textarea>
+        <hr>
+        <input type="checkbox" name="agree" vlaue="agree">마케팅 정보로써 연락처, 이메일 수집에 동의합니다.
+        <br>
+        <br>
+        <input type="submit" value="주문하기">
+        <input type="reset" value="주문취소">
+    </form>
+</body>
+</html>
