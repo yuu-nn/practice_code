@@ -1,6 +1,6 @@
 # Football Position Finder
 
-이 프로젝트는 자바의 switch expression을 연습하기 위해 만든 간단한 프로그램입니다.  
+이 프로젝트는 자바 14 이상에서 도입된 switch expression을 연습하기 위해 만든 간단한 프로그램입니다.  
 선수의 유니폼 번호를 입력하면 해당 포지션을 출력합니다.
 
 ## 사용 기술
