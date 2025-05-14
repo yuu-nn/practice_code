@@ -13,6 +13,8 @@ Users can enter personal information, choose menu items, drinks, pick-up time, a
 Open food_order_form.html in a web browser to see the order form.
 After filling it out and clicking [Submit], the entered data will appear in the URL query string
 since the form uses the GET method (In this code, no backend processing).
+![image](https://github.com/user-attachments/assets/b836f439-8a9e-468c-9693-c2d75e708853)
+
 
 ## Technologies Used
 HTML5
