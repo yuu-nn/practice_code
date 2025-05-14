@@ -24,8 +24,10 @@ def admin():
     #     return render_template('index.html')
 
     return session_storage
-에서 /admin이 session_storage를 return 함을 알 수 있었음. 
-4. /admin에 접근하여 세션값을 알아내기 성공함. 5. guest로 로그인한 후, 관리자 메뉴를 열어 session_id의 세션값을 admin의 세션값으로 바꿔줌, 로그인 성공.
+에서 /admin이 session_storage를 return 함을 알 수 있었음.
+
+4. /admin에 접근하여 세션값을 알아내기 성공함.
+5. guest로 로그인한 후, 관리자 메뉴를 열어 session_id의 세션값을 admin의 세션값으로 바꿔줌, 로그인 성공.
 
 ## 배운 점
 
