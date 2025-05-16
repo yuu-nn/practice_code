@@ -1,4 +1,4 @@
-# simple_sqli
+# simple_sql
 
 ## 문제 링크
 https://dreamhack.io/wargame/challenges/24
