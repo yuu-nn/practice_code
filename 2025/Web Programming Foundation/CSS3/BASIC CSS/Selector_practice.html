@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector practice</title>
+    <style>
+        body.main{background-color : aliceblue;} /*바디 태그의 클래스 이름이 메인인 경우*/
+        h3,li{ color : brown ;}
+        .warning{color : red;}
+        #list {background-color : mistyrose;}
+        body > strong{background-color: yellow;}
+        ul > li > strong{color : blue;}
+        li:hover {background-color : lightgreen;}
+        li:nth-child(2){background-color : rgb(255, 178, 178);}
+    </style>
+</head>
+<body class="main">
+    <h3>Web Programing</h3>
+    <hr>
+    1학기 <strong>학습내용</strong>
+    <ul id="list">
+        <li>HTML5</li>
+        <li><strong>CSS3</strong></li>
+        <li>JAVASCRIPT</li>
+    </ul>
+    <div class="warning">60점 이하는 F!</div>
+</body>
+</html>
