@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS 실습</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+		header, article, aside, footer {
+		    border:1px solid #999999;
+		}
+		body {
+			background-color : rgb(243,243,243);
+			width:960px;
+			margin : 0 auto;
+
+			font-family:Helvetica, Tahoma, Verdana , Sans-serif ;
+			position:relative;
+
+		}
+		section{
+			margin : 20px 0px ;
+
+		}
+		header{
+			background-color : black; color:white;
+			padding-top: 20px;
+			border-radius:15px;
+		}
+		article {
+			background-color : white;
+
+			padding: 20px;
+			border-radius : 15px;
+			width:640px;
+			float : left;
+			margin-bottom:20px;
+
+			background-image : url('coffee.jpg');
+			background-repeat:no-repeat;
+			background-size: 50%;
+			background-position: 110% 70%;
+		}
+		article>h3>a {
+			text-decoration : none;
+		}
+		article>h3>a:hover{
+			color :gray;
+		}
+	
+		aside {
+			background-color : white;
+
+			padding: 20px;
+			width : 220px;
+			border-radius : 15px;
+			float : right;
+		}
+		
+		footer {
+			clear : both;
+		}
+
+		.product_info {
+			color:rgb(145, 145, 145);
+			background-color:rgba(182, 187, 192, 0.3);
+		}
+		#popup{
+			width:200px;
+			height:150px;
+			background-color:rgb(0, 0, 0,0.5);
+			position: absolute;
+			left:400px;
+			top:50px;
+			box-shadow:10px 10px 30px  white;
+			padding: 15px;
+		}
+		#popup>h2{
+			color:red;
+			text-align:center;
+		}
+		#popup>p{
+			color:white;
+			
+		}
+		/*과제*/
+		#nav{
+			padding:20px 0px 15px 30px;
+			border-radius:0px 0px 15px 15px;
+			background-color:gray;
+		
+			
+		}
+		#nav>li {
+			display:inline;
+			padding-left : 10px;
+			
+		}
+		#nav>li>a {
+			color : white;
+			text-decoration : none;
+		}
+		footer {
+			color : rgb(210, 208, 208);
+			background-color:black;
+			padding:10px;
+			border-radius:15px;
+			margin-top: 20px;
+		}
+		header >h1{
+			padding : 0 20px;
+		}
+		header > p {
+			padding : 0 20px 20px 20px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Fourth Coffee</h1>
+		<p>Bringing the world to your cup</p>
+		<ul id="nav">
+			<li><a href="11week-start.html">Home</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Support</a></li>
+			<li><a href="#">Links</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+	</header>
+
+	<section>
+		<h2>Now in stock at Fourth Coffee!</h2>
+
+		<article>
+			<h3><a href="#">Classic Blend</a></h3>
+			<p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultricies, justo at placerat rhoncus, odio augue malesuada mauris, ac consectetur ligula erat id metus. Mauris volutpat, lacus in feugiat aliquet, augue tortor accumsan lacus, eu placerat
+				eros mauris eget diam. Integer risus nisi, aliquet eget mollis ut, auctor ut enim. Suspendisse venenatis arcu vitae velit pulvinar condimentum. Sed est eros, pharetra eu semper ac, dapibus id dui.</p>
+			<p class="product_info">Item #7849 | $49.99 </p>
+			<br />
+			<h3><a href="#">Guatemalan Blend</a></h3>
+			<p >Donec luctus bibendum arcu, ac interdum lacus sodales sit amet. Nullam interdum, lorem ut luctus ultrices, nisi turpis porttitor est, id pulvinar dui mauris nec sem. Vestibulum nec elit orci, quis imperdiet odio. Curabitur malesuada, quam sit amet
+				pharetra suscipit, turpis risus lacinia leo, in iaculis purus dui in velit. Vivamus luctus libero eget metus imperdiet consequat. Mauris sem ipsum, faucibus ut egestas id, eleifend a quam.</p>
+			<p class="product_info">Item #9753 | $44.99 </p>
+		</article>
+
+		<aside>
+			<h3>Welcome to Fourth!</h3>
+			<p>Praesent sagittis mattis sem et dignissim. Nullam hendrerit facilisis est, nec venenatis sem mollis sit amet. Nullam id quam risus, et sagittis mauris. Cras hendrerit neque eget purus gravida ac rutrum dolor tristique. Praesent a quam ligula. Praesent
+				sed augue nisl. Curabitur hendrerit, velit nec ullamcorper bibendum, turpis orci congue sem, eget sagittis erat nunc eu dui.</p>
+			<hr/>
+		</aside>
+
+	</section>
+
+	<footer>
+		<p>
+			&copy; 2025 Sungshin Women's University. All rights reserved. Terms of use.
+		</p>
+	</footer>
+	
+	<div id = "popup">
+		<h2>FIRE SALE!!</h2>
+		<br>
+		<p>
+			Not only are you saving the enviroment when you use our reusable capsules, you're also saving tons of money in the process.
+		</p>
+	</div>
+</body>
+</html>
