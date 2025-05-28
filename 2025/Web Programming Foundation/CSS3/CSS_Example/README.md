@@ -7,9 +7,13 @@
 - 색깔과 투명도, 박스 크기를 정하거나 그림자 기능 등, 시각적인 기능들을 익혔습니다.
 - 네비게이션 바, 카드 스타일 박스, 수평선, 강조 박스 등 다양한 레이아웃을 구현해 보았습니다.  
 - 이미지와 텍스트를 조합하여 실제 서비스와 비슷한 레이아웃을 구성하는 법을 익혔습니다.
+- 스크롤을 내려도 계속 따라붙는 고정 바를 구현해 보았습니다.
 
 # Example
-![image](https://github.com/user-attachments/assets/d5477586-9b7b-46b5-9810-bb7282eaadc7)
+![image](https://github.com/user-attachments/assets/4fe50900-b674-4011-b3e5-d85ce9efd178)
+
+![image](https://github.com/user-attachments/assets/52ad567d-c578-4185-84a0-2950286bb543)
+
 
 # Technologies Used
 CSS3 , HTML5
@@ -20,6 +24,7 @@ CSS3 , HTML5
 - 커피 상품 정보 카드 UI 구성  
 - 하단 푸터와 저작권 정보 표시  
 - 커피잔 일러스트 이미지 배치
+- 고정 바 배치
 
   
 ---
