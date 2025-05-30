@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!DOCTYPE html>
 <html lang="ko">
 <head>
 	<meta charset="UTF-8">
@@ -6,185 +6,382 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CSS 실습</title>
 	<style>
-		* {
-			margin: 0;
-			padding: 0;
-			border: 0;
-		}
-		header, article, aside, footer {
-		    border:1px solid #999999;
-		}
-		body {
-			background-color : rgb(243,243,243);
-			width:960px;
-			margin : 0 auto;
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
 
-			font-family:Helvetica, Tahoma, Verdana , Sans-serif ;
-			position:relative;
+  body {
+    background-color: #f9f6f1;
+    color: #212121;
+    font-family: Helvetica, Tahoma, Verdana, sans-serif;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+  }
 
-		}
-		section{
-			margin : 20px 0px ;
+  header, article, aside, footer {
+    border: 1px solid #999;
+  }
 
-		}
-		header{
-			background-color : black; color:white;
-			padding-top: 20px;
-			border-radius:15px;
-		}
-		article {
-			background-color : white;
+  header {
+    background-color: #4e342e;
+    color: white;
+    padding-top: 20px;
+    border-radius: 15px;
+  }
 
-			padding: 20px;
-			border-radius : 15px;
-			width:640px;
-			float : left;
-			margin-bottom:20px;
+  header > h1 {
+    padding: 0 20px;
+  }
 
-			background-image : url('coffee.jpg');
-			background-repeat:no-repeat;
-			background-size: 50%;
-			background-position: 110% 70%;
-		}
-		article>h3>a {
-			text-decoration : none;
-		}
-		article>h3>a:hover{
-			color :gray;
-		}
-	
-		aside {
-			background-color : white;
+  header > p {
+    padding: 0 20px 20px 20px;
+  }
 
-			padding: 20px;
-			width : 220px;
-			border-radius : 15px;
-			float : right;
-		}
-		
-		footer {
-			clear : both;
-		}
+  #nav {
+    padding: 20px 0px 15px 30px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #795548;
+  }
 
-		.product_info {
-			color:rgb(145, 145, 145);
-			background-color:rgba(182, 187, 192, 0.3);
-		}
-		#popup{
-			width:200px;
-			height:150px;
-			background-color:rgb(0, 0, 0,0.5);
-			position: absolute;
-			left:400px;
-			top:50px;
-			box-shadow:10px 10px 30px  white;
-			padding: 15px;
-		}
-		#popup>h2{
-			color:red;
-			text-align:center;
-		}
-		#popup>p{
-			color:white;
-			
-		}
-		/*과제*/
-		#nav{
-			padding:20px 0px 15px 30px;
-			border-radius:0px 0px 15px 15px;
-			background-color:gray;
-		
-			
-		}
-		#nav>li {
-			display:inline;
-			padding-left : 10px;
-			
-		}
-		#nav>li>a {
-			color : white;
-			text-decoration : none;
-		}
-		footer {
-			color : rgb(210, 208, 208);
-			background-color:black;
-			padding:10px;
-			border-radius:15px;
-			margin-top: 20px;
-		}
-		header >h1{
-			padding : 0 20px;
-		}
-		header > p {
-			padding : 0 20px 20px 20px;
-		}
-                #quickbar {
-			background-color :rgba(255, 255, 255, 0.7);
-			width : 65px;
-			position : fixed;
-			right :0%;
-			top:0;
+  #nav > li {
+    display: inline;
+    padding-left: 10px;
+  }
 
-			border-radius : 25px;
-			padding : 10px;
-		}		
-	</style>
+  #nav > li > a {
+    color: white;
+    text-decoration: none;
+  }
+
+  #quickbar {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 65px;
+    position: fixed;
+    right: 0%;
+    top: 0;
+    border-radius: 25px;
+    padding: 10px;
+  }
+
+  section {
+    margin: 20px 0;
+  }
+
+  article {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    width: 640px;
+    float: left;
+    margin-bottom: 20px;
+  }
+
+  article > h3 > a {
+    text-decoration: none;
+  }
+
+  article > h3 > a:hover {
+    color: #a1887f;
+  }
+
+  .product_info {
+    color: #6d4c41;
+    background-color: rgba(222, 184, 135, 0.2);
+  }
+
+  aside {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 220px;
+    border-radius: 15px;
+    float: right;
+  }
+
+  footer {
+    clear: both;
+    color: #e0e0e0;
+    background-color: #4e342e;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+
+  #popup {
+    width: 200px;
+    height: 150px;
+    background-color: rgba(78, 52, 46, 0.9);
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    box-shadow: 10px 10px 30px white;
+    padding: 15px;
+  }
+
+  #popup > h2 {
+    color: #ffcc80;
+    text-align: center;
+  }
+
+  #popup > p {
+    color: #fff3e0;
+  }
+</style>
+
 </head>
 <body>
 	<header>
-		<h1>Fourth Coffee</h1>
-		<p>Bringing the world to your cup</p>
-		<ul id="nav">
-			<li><a href="11week-start.html">Home</a></li>
-			<li><a href="#">Products</a></li>
-			<li><a href="#">Support</a></li>
-			<li><a href="#">Links</a></li>
-			<li><a href="#">About</a></li>
-		</ul>
-	</header>
+  <h1>Sunny Bean</h1>
+  <p>Your daily dose of sunshine in a cup</p>
+  <ul id="nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Menu</a></li>
+    <li><a href="#">Locations</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">About Us</a></li>
+  </ul>
+</header>
 
-	<div id = "quickbar">
-		<p>
-			서울 날씨
-		</p>
-	</div>
+<div id="quickbar">
+  <p>
+    기온: 22℃
+  </p>
+</div>
 
-	<section>
-		<h2>Now in stock at Fourth Coffee!</h2>
+<section>
+  <h2>Fresh Arrivals at Sunny Bean!</h2>
 
-		<article>
-			<h3><a href="#">Classic Blend</a></h3>
-			<p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultricies, justo at placerat rhoncus, odio augue malesuada mauris, ac consectetur ligula erat id metus. Mauris volutpat, lacus in feugiat aliquet, augue tortor accumsan lacus, eu placerat
-				eros mauris eget diam. Integer risus nisi, aliquet eget mollis ut, auctor ut enim. Suspendisse venenatis arcu vitae velit pulvinar condimentum. Sed est eros, pharetra eu semper ac, dapibus id dui.</p>
-			<p class="product_info">Item #7849 | $49.99 </p>
-			<br />
-			<h3><a href="#">Guatemalan Blend</a></h3>
-			<p >Donec luctus bibendum arcu, ac interdum lacus sodales sit amet. Nullam interdum, lorem ut luctus ultrices, nisi turpis porttitor est, id pulvinar dui mauris nec sem. Vestibulum nec elit orci, quis imperdiet odio. Curabitur malesuada, quam sit amet
-				pharetra suscipit, turpis risus lacinia leo, in iaculis purus dui in velit. Vivamus luctus libero eget metus imperdiet consequat. Mauris sem ipsum, faucibus ut egestas id, eleifend a quam.</p>
-			<p class="product_info">Item #9753 | $44.99 </p>
-		</article>
+  <article>
+    <h3><a href="#">Sunrise Roast</a></h3>
+    <p>
+      A vibrant and smooth blend perfect for your morning routine. Carefully selected beans deliver a balanced flavor with subtle notes of citrus and caramel.
+    </p>
+    <p class="product_info">Item #1021 | ₩15,000</p>
+    <br />
+    <h3><a href="#">Evening Decaf</a></h3>
+    <p>
+      A rich and mellow decaffeinated blend, ideal for unwinding after a long day. Smooth body with a lingering chocolate finish, perfect for all-day sipping.
+    </p>
+    <p class="product_info">Item #1042 | ₩13,000</p>
+  </article>
 
-		<aside>
-			<h3>Welcome to Fourth!</h3>
-			<p>Praesent sagittis mattis sem et dignissim. Nullam hendrerit facilisis est, nec venenatis sem mollis sit amet. Nullam id quam risus, et sagittis mauris. Cras hendrerit neque eget purus gravida ac rutrum dolor tristique. Praesent a quam ligula. Praesent
-				sed augue nisl. Curabitur hendrerit, velit nec ullamcorper bibendum, turpis orci congue sem, eget sagittis erat nunc eu dui.</p>
-			<hr/>
-		</aside>
+  <aside>
+    <h3>Welcome to Sunny Bean!</h3>
+    <p>
+      Enjoy premium coffee crafted with care. Whether you're on the go or relaxing at our café, we serve joy in every cup. Try our new seasonal blends today!
+    </p>
+    <hr/>
+  </aside>
+</section>
 
-	</section>
+<footer>
+  <p>
+    &copy; 2025 Sunny Bean Coffee. All rights reserved.
+  </p>
+</footer>
 
-	<footer>
-		<p>
-			&copy; 2025 Sungshin Women's University. All rights reserved. Terms of use.
-		</p>
-	</footer>
-	
-	<div id = "popup">
-		<h2>FIRE SALE!!</h2>
-		<br>
-		<p>
-			Not only are you saving the enviroment when you use our reusable capsules, you're also saving tons of money in the process.
-		</p>
-	</div>
+<div id="popup">
+  <h2>SPECIAL OFFER!</h2>
+  <br>
+  <p>
+    Get 20% off all reusable tumblers this week! Limited time only – join us in making coffee more sustainable and stylish.
+  </p>
+</div>
+
+</body>
+</html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS 실습</title>
+	<style>
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  body {
+    background-color: #f9f6f1;
+    color: #212121;
+    font-family: Helvetica, Tahoma, Verdana, sans-serif;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  header, article, aside, footer {
+    border: 1px solid #999;
+  }
+
+  header {
+    background-color: #4e342e;
+    color: white;
+    padding-top: 20px;
+    border-radius: 15px;
+  }
+
+  header > h1 {
+    padding: 0 20px;
+  }
+
+  header > p {
+    padding: 0 20px 20px 20px;
+  }
+
+  #nav {
+    padding: 20px 0px 15px 30px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #795548;
+  }
+
+  #nav > li {
+    display: inline;
+    padding-left: 10px;
+  }
+
+  #nav > li > a {
+    color: white;
+    text-decoration: none;
+  }
+
+  #quickbar {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 65px;
+    position: fixed;
+    right: 0%;
+    top: 0;
+    border-radius: 25px;
+    padding: 10px;
+  }
+
+  section {
+    margin: 20px 0;
+  }
+
+  article {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    width: 640px;
+    float: left;
+    margin-bottom: 20px;
+  }
+
+  article > h3 > a {
+    text-decoration: none;
+  }
+
+  article > h3 > a:hover {
+    color: #a1887f;
+  }
+
+  .product_info {
+    color: #6d4c41;
+    background-color: rgba(222, 184, 135, 0.2);
+  }
+
+  aside {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 220px;
+    border-radius: 15px;
+    float: right;
+  }
+
+  footer {
+    clear: both;
+    color: #e0e0e0;
+    background-color: #4e342e;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+
+  #popup {
+    width: 200px;
+    height: 150px;
+    background-color: rgba(78, 52, 46, 0.9);
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    box-shadow: 10px 10px 30px white;
+    padding: 15px;
+  }
+
+  #popup > h2 {
+    color: #ffcc80;
+    text-align: center;
+  }
+
+  #popup > p {
+    color: #fff3e0;
+  }
+</style>
+
+</head>
+<body>
+	<header>
+  <h1>Sunny Bean</h1>
+  <p>Your daily dose of sunshine in a cup</p>
+  <ul id="nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Menu</a></li>
+    <li><a href="#">Locations</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">About Us</a></li>
+  </ul>
+</header>
+
+<div id="quickbar">
+  <p>
+    서울 현재 기온: 22℃
+  </p>
+</div>
+
+<section>
+  <h2>Fresh Arrivals at Sunny Bean!</h2>
+
+  <article>
+    <h3><a href="#">Sunrise Roast</a></h3>
+    <p>
+      A vibrant and smooth blend perfect for your morning routine. Carefully selected beans deliver a balanced flavor with subtle notes of citrus and caramel.
+    </p>
+    <p class="product_info">Item #1021 | ₩15,000</p>
+    <br />
+    <h3><a href="#">Evening Decaf</a></h3>
+    <p>
+      A rich and mellow decaffeinated blend, ideal for unwinding after a long day. Smooth body with a lingering chocolate finish, perfect for all-day sipping.
+    </p>
+    <p class="product_info">Item #1042 | ₩13,000</p>
+  </article>
+
+  <aside>
+    <h3>Welcome to Sunny Bean!</h3>
+    <p>
+      Enjoy premium coffee crafted with care. Whether you're on the go or relaxing at our café, we serve joy in every cup. Try our new seasonal blends today!
+    </p>
+    <hr/>
+  </aside>
+</section>
+
+<footer>
+  <p>
+    &copy; 2025 Sunny Bean Coffee. All rights reserved.
+  </p>
+</footer>
+
+<div id="popup">
+  <h2>SPECIAL OFFER!</h2>
+  <br>
+  <p>
+    Get 20% off all reusable tumblers this week! Limited time only – join us in making coffee more sustainable and stylish.
+  </p>
+</div>
+
 </body>
 </html>
