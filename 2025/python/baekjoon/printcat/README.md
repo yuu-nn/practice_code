@@ -10,10 +10,7 @@
 - `print` 문을 사용하여 고양이 모양의 ASCII 아트를 출력합니다.
 
 ## Example Output
-\    /\
- )  ( ')
-(  /  )
- \(__)|
+![image](https://github.com/user-attachments/assets/787411de-a455-4c84-bb9f-417c99adff3f)
 
 ## Learning Points
 - 이스케이프 문자 처리 방법을 배울 수 있습니다.  
