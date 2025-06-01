@@ -15,3 +15,4 @@
   - `Dreamhack`: CTF 문제 풀이 정리  
   - `JAVA`: Java 문법 실습 및 예제 코드  
   - `Web Programming Foundation`: HTML/CSS/JAVASCRIPT 실습
+  - `PYTHON`: PYTHON 문법 실습 및 예제 코드
