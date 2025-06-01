@@ -13,6 +13,7 @@
 ## 폴더 구성
 - '2025/': 2025년 활동 기록
   - `Dreamhack`: CTF 문제 풀이 정리  
-  - `JAVA`: Java 문법 실습 및 예제 코드  
+  - `JAVA`: Java 문법 실습 및 예제 코드
+  - `Python`: Python 문법 실습 및 예제 코드
   - `Web Programming Foundation`: HTML/CSS/JAVASCRIPT 실습
-  - `PYTHON`: PYTHON 문법 실습 및 예제 코드
+  
