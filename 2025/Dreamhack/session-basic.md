@@ -13,21 +13,23 @@ https://dreamhack.io/wargame/challenges/409
 1. `users = { 'guest': 'guest', 'user': 'user1234' }` 와 `pw = users[username]` 를 보고 guest의 비밀번호는 guest가 아닐지 로그인 해봄, 성공.
    user의 비밀번호 또한 user1234인 것을 알 수 있었음.
 2. admin의 비밀번호도 admin일지 시도해보았지만 실패.
+
 3. 
-@app.route('/admin')
+`@app.route('/admin')
 def admin():
     # developer's note: review below commented code and uncomment it (TODO)
 
     # session_id = request.cookies.get('sessionid', None)
     # username = session_storage[session_id]
     # if username != 'admin':
-    #     return render_template('index.html')
+    #     return render_template('index.html') 
 
-    return session_storage
+    return session_storage`
+   
 에서 /admin이 session_storage를 return 함을 알 수 있었음.
 
-4. /admin에 접근하여 세션값을 알아내기 성공함.
-5. guest로 로그인한 후, 관리자 메뉴를 열어 session_id의 세션값을 admin의 세션값으로 바꿔줌, 로그인 성공.
+3. /admin에 접근하여 세션값을 알아내기 성공함.
+4. guest로 로그인한 후, 관리자 메뉴를 열어 session_id의 세션값을 admin의 세션값으로 바꿔줌, 로그인 성공.
 
 ## 배운 점
 
