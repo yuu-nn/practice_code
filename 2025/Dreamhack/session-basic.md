@@ -15,7 +15,8 @@ https://dreamhack.io/wargame/challenges/409
 2. admin의 비밀번호도 admin일지 시도해보았지만 실패.
 
 3. 
-`@app.route('/admin')
+```
+ @app.route('/admin')
 def admin():
     # developer's note: review below commented code and uncomment it (TODO)
 
@@ -24,7 +25,8 @@ def admin():
     # if username != 'admin':
     #     return render_template('index.html') 
 
-    return session_storage`
+    return session_storage
+```
    
 에서 /admin이 session_storage를 return 함을 알 수 있었음.
 
