@@ -3,7 +3,7 @@
 [백준 10171번 문제 - 고양이] (https://www.acmicpc.net/problem/10171)
 
 ## Technologies Used
-- python 3
+- python
 - 이스케이프 처리
 
 ## Main Features
