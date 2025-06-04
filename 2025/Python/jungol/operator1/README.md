@@ -3,8 +3,8 @@
 [정올 연산자 - 형성평가 1 #9217] (https://jungol.co.kr/problem/9217?account=yuna0612&sid=10514103&cursor=MTYsMiwxNQ%3D%3D)
 
 ## Technologies Used
-Python  
-연산자 
+- Python  
+- 연산자 
 
 ## Main Features
 - input() 을 활용하여 각 과목별로 점수를 입력받습니다.
