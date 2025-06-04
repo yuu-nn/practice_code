@@ -1,5 +1,5 @@
 # tot_avg
-이 코드는 네 과목 국어, 영어, 수학, 정보의 점수를 각각 입력받아 총점과 평균을 구하는 간단한 파이썬 프로그램입니다.
+이 코드는 네 과목 국어, 영어, 수학, 정보의 점수를 각각 입력받아 총점과 평균을 구하는 간단한 파이썬 프로그램입니다.  
 [정올 연산자 - 형성평가 1 #9217] (https://jungol.co.kr/problem/9217?account=yuna0612&sid=10514103&cursor=MTYsMiwxNQ%3D%3D)
 
 ## Technologies Used
