@@ -1,11 +1,5 @@
 # printint
 이 코드는 정수 N을 입력받아서 출력예와 같이 출력하는 간단한 파이썬 프로그램 입니다.  
-출력 예:
-*
-**
-***
-**
-*
 [정올 반복제어문3 - 형성평가 1 #9341] (https://jungol.co.kr/problem/9341?=MTYsNywxNw%3D%3D)
 
 ## Technologies Used
