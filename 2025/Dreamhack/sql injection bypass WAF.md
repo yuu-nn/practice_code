@@ -29,7 +29,7 @@ SELECT * FROM user WHERE uid='' UNION SELECT 1, upw, 3 FROM user WHERE uid='ADMI
 if result:
             return template.format(uid=uid, result=result[1])
 ```
-가 있다. 이는 uid, 즉 2번째 컬럼만 화면에 출력이 되기 때문에 우리가 알고싶은 upw를 2번째 컬럼 자리에 넣어준다.  
+가 있다. 이는 uid, 즉 2번째 컬럼만 화면에 출력이 되기 때문에(result=result[1] 로 확인 가능) 우리가 알고싶은 upw를 2번째 컬럼 자리에 넣어준다.  
 4. 하지만 공백 또한 키워드로 필터링된다. > 공백을 없애야한다.  
 5. SQL injection 공백 우회 키워드인 %09를 공백 사이사이에 끼어넣어준다.  
 6.   
