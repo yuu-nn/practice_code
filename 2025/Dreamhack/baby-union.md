@@ -8,7 +8,8 @@ SQL INJECTION 취약점을 통해 플래그를 획득하는 로그인 서비스�
 
 ## 풀이 과정
 1. 코드에 주어진 
-```INSERT INTO users (uid, upw, descr) values ('guest', 'melon', 'For guest');
+```
+INSERT INTO users (uid, upw, descr) values ('guest', 'melon', 'For guest');
 ```
 을 보고, upw에
 ```
