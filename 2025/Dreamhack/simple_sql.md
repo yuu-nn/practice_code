@@ -7,11 +7,7 @@ https://dreamhack.io/wargame/challenges/24
 SQL INJECTION 취약점을 통해 플래그를 획득하는 로그인 서비스이다.
 
 ## 풀이 과정
-1. 파이썬 코드를 통해
-   ```python
-   (userid, userpassword)에 ("guest", "guest")
-   ```
-    로 로그인이 됨을 알 수 있었고, ID가 admin인 계정에 로그인 하는게 최종 목표임을 알 수 있었다.
+1. 파이썬 코드를 통해 (userid, userpassword)에 ("guest", "guest") 로 로그인이 됨을 알 수 있었고, ID가 admin인 계정에 로그인 하는게 최종 목표임을 알 수 있었다.
 3. ```sql
    'select * from users where userid="{userid}" and userpassword="{userpassword}"'
    ```
