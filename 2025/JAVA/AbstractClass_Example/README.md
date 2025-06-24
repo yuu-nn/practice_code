@@ -1,4 +1,4 @@
-# Controller Example  
+# AbstractClass_Example 
 이 코드는 추상 클래스와 다형성을 활용하여 `TV`와 `Radio` 객체의 전원 상태를 출력하는 간단한 Java 프로그램입니다.  
 Java의 상속과 오버라이딩 개념을 연습하기 위한 예제입니다.
 
