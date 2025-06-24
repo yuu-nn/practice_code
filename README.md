@@ -1,7 +1,7 @@
 # Practice Repository
 
 📌 보안 전공생이 개인 공부 및 실습을 기록합니다.  
-- 주요 주제: CTF 풀이 , 보안 실습, 프로그래밍 언어 실습 등
+- 주요 주제:  프로그래밍 언어 실습 등
 - 폴더별 정리 기준: 연도 / 주제별
   
 ## 커밋 및 학습 기록 목적
@@ -12,7 +12,6 @@
 
 ## 폴더 구성
 - `2025/`: 2025년 활동 기록
-  - `Dreamhack`: CTF 문제 풀이 정리  
   - `JAVA`: Java 문법 실습 및 예제 코드
   - `Python`: Python 문법 실습 및 예제 코드
   - `Web Programming Foundation`: HTML/CSS/JAVASCRIPT 실습
