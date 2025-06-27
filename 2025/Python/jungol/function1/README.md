@@ -1,5 +1,5 @@
 # function1
-이 코드는 자연수 N과 M을 입력받아서 주사위를 N번 던져서 나온 눈의 합이 M이 나올 수 있는 모든 경우를 출력하는 프로그램입니다.
+이 코드는 자연수 N과 M을 입력받아서 주사위를 N번 던져서 나온 눈의 합이 M이 나올 수 있는 모든 경우를 출력하는 프로그램입니다.  
 [함수 3 - 형성평가 3 (4판 형성평가 8) #409] (https://jungol.co.kr/problem/409?&cursor=MywxNiwxNQ%3D%3D)
 
 ## Technologies Used
